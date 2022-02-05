@@ -7,6 +7,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * initializing react app
   ``` zsh
   $ npx create-react-app hello-react --use-npm
+  $ cd hello-react
+  $ npm start
+  ```
+* Understanding ReactDOM.render
+  ``` javascript
+  ReactDOM.render(
+    React.createElement(
+        'h1',     // Name of tag
+        null,     // Properties
+        'Hello!'  // Children
+    ),
+    // Element to render
+    document.getElementById('root')
+    // Location to render element
+    // root div must be specified in index.html
+  );
   ```
 
 ----
