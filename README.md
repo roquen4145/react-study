@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Study Log
+
+* initializing react app
+  ``` zsh
+  $ npx create-react-app hello-react --use-npm
+  ```
+
+----
+# Below contents are original contents from create-react-app.
 ## Available Scripts
 
 In the project directory, you can run:
