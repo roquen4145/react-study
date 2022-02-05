@@ -24,6 +24,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     // root div must be specified in index.html
   );
   ```
+* Using JSX
+  ``` javascript
+  ReactDOM.render(
+    <h1>Hello!</h1>, // Input tag and children itself
+    document.getElementById('root')
+  );
+  ```
 
 ----
 # Below contents are original contents from create-react-app.
